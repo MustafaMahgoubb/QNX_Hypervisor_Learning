@@ -25,7 +25,7 @@ This document covers the three types of devices you can configure for guests in 
 ---
 
 ## Type 1: Emulated Devices
-
+![Emulated Device Diagram](Resources/EmulatedDevice.png)
 ### Description
 
 - Hardware is emulated in software
@@ -80,6 +80,7 @@ These do not require a separate .so file but can still be configured in the conf
 ---
 
 ## Type 2: Para-virtualized Devices
+![Para-virtualized Device Diagram](Resources/ParavirtualizedDevice.png)
 
 ### Description
 
@@ -128,7 +129,7 @@ These do not require a separate .so file but can still be configured in the conf
 ---
 
 ## Type 3: Pass-through Devices
-
+![Pass-through Device Diagram](Resources/PassThroughDevice.png)
 ### Description
 
 - Driver in guest deals directly with actual hardware
