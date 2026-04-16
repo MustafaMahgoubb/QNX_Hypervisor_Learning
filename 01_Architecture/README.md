@@ -7,7 +7,7 @@ This document summarizes the architecture of the QNX Hypervisor, covering its de
 ---
 
 ## What is the QNX Hypervisor?
-![QNX Hypervisor Diagram](Resources/SystemArcheticture.png)
+![QNX Hypervisor Diagram](Resources/SystemArchitecture.png)
 **Definition:** Software that runs multiple operating systems on the same SoC (System on Chip) / board.
 
 **Example Use Case:**
@@ -158,6 +158,7 @@ Examples of virtual devices:
 ---
 
 ## Memory Architecture
+![Memory Architecture Diagram](Resources/MemoryArchitecture.png)
 
 ### Address Space Terminology
 
